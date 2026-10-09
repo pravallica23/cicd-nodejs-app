@@ -1,0 +1,20 @@
+{
+  "name": "cicd-nodejs-app",
+  "version": "1.0.0",
+  "description": "Node.js application for CI/CD practice",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.3.1"
+  }
+}
